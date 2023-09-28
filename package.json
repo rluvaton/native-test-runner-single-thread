@@ -1,0 +1,16 @@
+{
+  "name": "native-test-runner-single-thread",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:single-thread": "node --require ./test/setup/test-hooks.js ./run-tests.js",
+    "test:multi-thread": "node --require ./test/setup/test-hooks.js ./regular-run-tests.js"
+  },
+  "keywords": [],
+  "author": "Raz Luvaton",
+  "license": "ISC",
+  "devDependencies": {
+    "glob": "^10.3.10"
+  }
+}
